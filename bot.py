@@ -117,9 +117,9 @@ async def button_handler(
         ])
 
         qr_files = {
-            "online": "qr_codes/qr_200.png",
-            "new": "qr_codes/qr_300.png",
-            "old": "qr_codes/qr_600.png",
+            "online": "qr_200.png",
+            "new": "qr_300.png",
+            "old": "qr_600.png",
         }
         qr_path = Path(__file__).resolve().parent / qr_files[key]
 
